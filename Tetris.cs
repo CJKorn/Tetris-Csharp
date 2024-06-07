@@ -1,14 +1,31 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Windows.Forms;
+
+//Basic Idea, I will have the static board of placed blocks and then I will have a block that is falling down separate until it lands
 
 namespace Tetris {
     class Tetris {
-        static int[,] board = new int[10, 24];
+        public static int[,] board = new int[10, 24];
         static void Main() {
             // int[,] board = new int[10, 24];
             InitializeBoard();
             TestWriteRandomBlocks();
             PrintBoard();
+        }
+
+        public static int[,] getBoard() {
+            return board;
+        }
+
+        public static int getTile(int x, int y) {
+            return board[x, y];
+        }
+
+        public static void writeTile(int x, int y, int value) {
+            board[x, y] = value;
         }
 
         public static void PrintBoard() {

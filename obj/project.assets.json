@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cjkor\\Desktop\\UTS\\.Net\\Projects\\Tetris\\Tetris\\Tetris.csproj",
-      "projectName": "Tetris",
-      "projectPath": "C:\\Users\\cjkor\\Desktop\\UTS\\.Net\\Projects\\Tetris\\Tetris\\Tetris.csproj",
+      "projectUniqueName": "C:\\Users\\cjkor\\Desktop\\UTS\\.Net\\Projects\\Tetris-Csharp\\Tetris-Csharp.csproj",
+      "projectName": "Tetris-Csharp",
+      "projectPath": "C:\\Users\\cjkor\\Desktop\\UTS\\.Net\\Projects\\Tetris-Csharp\\Tetris-Csharp.csproj",
       "packagesPath": "C:\\Users\\cjkor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cjkor\\Desktop\\UTS\\.Net\\Projects\\Tetris\\Tetris\\obj\\",
+      "outputPath": "C:\\Users\\cjkor\\Desktop\\UTS\\.Net\\Projects\\Tetris-Csharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cjkor\\AppData\\Roaming\\NuGet\\NuGet.Config"
